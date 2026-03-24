@@ -1,0 +1,98 @@
+"""Module containing the word list and hints for the Hangman game.
+
+This module provides a list of dictionaries, where each dictionary contains
+a 'word' and a corresponding 'hint'.
+"""
+
+from typing import List, TypedDict
+
+
+class WordEntry(TypedDict):
+    """Shape of a single word entry in the game list."""
+
+    word: str
+    hint: str
+
+
+words_and_hints: List[WordEntry] = [
+    {
+        "word": "giraffe",
+        "hint": "This tall animal has a very long neck and spots all over its body.",
+    },
+    {
+        "word": "crocodile",
+        "hint": "This reptile is known for its big, sharp teeth and tough, scaly skin. It can be found in rivers and swamps in tropical regions.",
+    },
+    {
+        "word": "penguin",
+        "hint": "This flightless bird is native to the Southern Hemisphere, and it is known for its black and white feathers and its ability to swim underwater.",
+    },
+    {
+        "word": "toucan",
+        "hint": "This tropical bird has a large, colorful beak and is native to Central and South America.",
+    },
+    {
+        "word": "kangaroo",
+        "hint": "This marsupial is native to Australia and is known for its powerful legs and its ability to hop long distances.",
+    },
+    {
+        "word": "hippopotamus",
+        "hint": "This large, semi-aquatic mammal is native to Africa and is known for its short legs, big body, and large, tooth-filled mouth.",
+    },
+    {
+        "word": "eagle",
+        "hint": "This large bird of prey is known for its keen eyesight and powerful wings. It is often associated with strength and freedom.",
+    },
+    {
+        "word": "igloo",
+        "hint": "This type of dwelling is made of blocks of ice or snow and is traditionally used by the Inuit people as a temporary home in the Arctic.",
+    },
+    {
+        "word": "cactus",
+        "hint": "This type of plant is adapted to living in dry, desert regions and has thick, spiky stems to store water.",
+    },
+    {
+        "word": "orangutan",
+        "hint": "This large, intelligent primate is native to the rainforests of Indonesia and Malaysia, and it is known for its reddish-brown hair and long arms.",
+    },
+    {
+        "word": "rhinoceros",
+        "hint": "This large, herbivorous mammal is known for its thick skin and the horn on its snout. It is native to Africa and Asia.",
+    },
+    {
+        "word": "lighthouse",
+        "hint": "This tall, coastal structure is equipped with a powerful light that is used to guide ships safely to shore at night or in foggy conditions.",
+    },
+    {
+        "word": "zipper",
+        "hint": "This fastening device consists of two rows of interlocking teeth that can be opened and closed by pulling a sliding tab along the track.",
+    },
+    {
+        "word": "jaguar",
+        "hint": "This large cat is native to the Americas and is known for its powerful bite and its ability to climb trees.",
+    },
+    {
+        "word": "hazelnut",
+        "hint": "This small, brown nut with a hard outer shell is often used in cooking and baking. It is also the main ingredient in chocolate-hazelnut spread.",
+    },
+    {
+        "word": "giraffe",
+        "hint": "This tall animal has a very long neck and spots all over its body.",
+    },
+    {
+        "word": "crocodile",
+        "hint": "This reptile is known for its big, sharp teeth and tough, scaly skin. It can be found in rivers and swamps in tropical regions.",
+    },
+    {
+        "word": "penguin",
+        "hint": "This flightless bird is native to the Southern Hemisphere, and it is known for its black and white feathers and its ability to swim underwater.",
+    },
+    {
+        "word": "toucan",
+        "hint": "This tropical bird has a large, colorful beak and is native to Central and South America.",
+    },
+    {
+        "word": "kangaroo",
+        "hint": "This marsupial is native to Australia and is known for its powerful legs and its ability to hop long distances.",
+    },
+]
